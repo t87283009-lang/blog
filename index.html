@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="pagina para enseñar a cuidar a tu mascota">
+    <meta name="author" content="Jaider Mosquera">
+    <meta name="keywords" content="consultoria, capacitacion, mascotas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Consultoria de como cuidar a tu Mascota</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="menu fixed-top" id="nav">
+        <ul>
+            <li><a href="#">Principal</a></li>
+            <li><a href="http://127.0.0.1:5502/ayuda.html">Ayuda</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Portafolio</a></li>
+            <li><a href="http://127.0.0.1:5500/cuidados.html#salud">Información</a></li>
+        </ul>
+    </nav>
+
+    <!-- BIENVENIDA -->
+    <section class="bienvenida">
+        <div class="container">
+
+            <div class="text-center mb-5">
+                <p class="text-uppercase text-muted mb-1">Bienvenido a</p>
+
+                <h1 class="display-4 fw-bold">
+                    Cuidando a tu mascota
+                </h1>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- AQUÍ CONTINÚA TU CARRUSEL -->
+
+
+<body>
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagenes/amigos.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/compañia.png" class="d-block w-100" alt="buldog y gato">
+    </div>
+    <div class="carousel-item">
+      <img class="logo" src="imagenes/ellos.png" class="d-block w-100" alt="amor">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+
+
+
+        <!--dos columnas: imagen + texto-->
+        <div class="row align-items-center g-0 rounded overflow-hidden shadow">
+
+            <!--columna izquierda - imagen-->
+            <div class="col-md-5">
+                <img src="imagenes/mascotas.png"    
+                    class="img-fluit w-100 h-100"
+                    style="object-fit: cover; min-height: 400px;"
+                    alt="Mascota feliz"> 
+            </div>
+        
+        <!--columna derecha - texto-->
+        <div class="col-md-7 bg-dark text-white p-5">
+        <p class="fs-5">
+          Ofrecemos una experiencia de cuidado y amor única para tus mascotas. 
+          La magia de entender sus necesidades, la dedicación de pequeños secretos 
+          de bienestar y el acompañamiento a lo largo de su vida, configuran 
+          un referente de consultoría animal.
+        </p>
+        <p class="mt-4">
+            Desde alimentación y salud hasta entrenamiento y compañía, te ayudamos 
+          a brindarle a tu mascota una vida plena, feliz y saludable.
+        </p>
+       </div>
+
+  </div>
+ </div>
+</section>
+        
+<!-- CONTENIDO INFORMATIVO -->
+<section class="esencial">
+    <div class="container">
+
+        <h2 class="titulo-esencial">
+            Lo esencial para el cuidado de tu mascota
+        </h2>
+
+        <p class="descripcion-esencial">
+            Haz clic en cada opción para descubrir más sobre lo que tu mascota necesita.
+        </p>
+
+        <div class="row g-4">
+
+            <!-- TIEMPO -->
+            <div class="col-md-3 col-sm-6">
+                <div class="tarjeta-esencial">
+
+                    <button class="boton-esencial"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#tiempo">
+
+                        <div class="icono">⏰</div>
+                        <h5>Tiempo</h5>
+                        <p>Dedícale tiempo cada día, él depende de ti.</p>
+
+                        <span class="flecha">⌄</span>
+                    </button>
+
+                    <div class="collapse contenido-desplegable" id="tiempo">
+                        <p>
+                            Las mascotas necesitan nuestra atención diariamente.
+                            Jugar, caminar, alimentarlas, asearlas y compartir
+                            momentos con ellas fortalece el vínculo y mejora
+                            su bienestar.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- CUIDADO -->
+            <div class="col-md-3 col-sm-6">
+                <div class="tarjeta-esencial">
+
+                    <button class="boton-esencial"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#cuidado">
+
+                        <div class="icono">🛡️</div>
+                        <h5>Cuidado</h5>
+                        <p>Alimentación adecuada, atención veterinaria y ambiente seguro.</p>
+
+                        <span class="flecha">⌄</span>
+                    </button>
+
+                    <div class="collapse contenido-desplegable" id="cuidado">
+                        <p>
+                            Cuidar una mascota significa ofrecerle una buena
+                            alimentación, agua limpia, higiene, controles
+                            veterinarios y un espacio seguro donde pueda
+                            descansar y sentirse protegida.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- PACIENCIA -->
+            <div class="col-md-3 col-sm-6">
+                <div class="tarjeta-esencial">
+
+                    <button class="boton-esencial"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#paciencia">
+
+                        <div class="icono">❤️</div>
+                        <h5>Paciencia</h5>
+                        <p>Ten comprensión y paciencia en su educación y adaptación.</p>
+
+                        <span class="flecha">⌄</span>
+                    </button>
+
+                    <div class="collapse contenido-desplegable" id="paciencia">
+                        <p>
+                            Cada mascota aprende a su propio ritmo. La paciencia
+                            permite enseñarle buenos hábitos sin maltrato,
+                            respetando sus tiempos y recompensando sus avances.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- COMPROMISO -->
+            <div class="col-md-3 col-sm-6">
+                <div class="tarjeta-esencial">
+
+                    <button class="boton-esencial"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#compromiso">
+
+                        <div class="icono">🐾</div>
+                        <h5>Compromiso</h5>
+                        <p>Es para toda la vida. No es un objeto, es parte de la familia.</p>
+
+                        <span class="flecha">⌄</span>
+                    </button>
+
+                    <div class="collapse contenido-desplegable" id="compromiso">
+                        <p>
+                            Tener una mascota es asumir una responsabilidad
+                            durante toda su vida. Significa estar presente,
+                            protegerla, atender sus necesidades y acompañarla
+                            en cada etapa.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+  <button class="btn btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#conciencia">
+    Creando conciencia ❤️
+    </button>
+
+    <button class="btn btn-collapse" type="button" data-bs-toggle="collapse" data-bs-target="#importancia">
+    ¿Por qué son importantes las mascotas?
+    </button>
+
+    <div class="collapse" id="conciencia">
+    <div class="collapse-content">
+      <p>Las mascotas sienten, necesitan cariño y también pueden sentirse solas. Por eso, tener una mascota no solo significa recibir amor, sino también comprometerse a darle una vida digna, segura y feliz.</p>
+    </div>
+  </div>
+
+  <div class="collapse" id="importancia">
+    <div class="collapse-content">
+      <p>Las mascotas nos brindan compañía, cariño y momentos inolvidables. Pueden convertirse en nuestros mejores amigos y formar parte de nuestra familia. Pero su bienestar depende de nosotros. Alimentarlos correctamente, llevarlos al veterinario, brindarles un hogar seguro, jugar con ellos y darles amor son formas de agradecer todo lo que nos entregan.</p>
+    </div>
+  </div>
+    <!-- CONTENIDO PRINCIPAL DE INFORMACIÓN -->
+  <main>
+    <section class="seccion-articulos">
+
+    <!-- Artículo 1 -->
+    <article>
+      <header class="container">
+        <hgroup>
+          <h2>Cachorros en Acción</h2>
+          <p class="subtitulo">Cachorritos llenos de energía y ternura</p>
+        </hgroup>
+        <time datetime="2022-10-18">Publicado el 18 de octubre de 2022</time>
+      </header>
+
+      <p>
+        Las mascotas llenan nuestro hogar de alegría y compañía. Cada animal tiene necesidades diferentes, 
+        por eso es importante conocerlas, respetarlas y brindarles los cuidados necesarios para que puedan 
+        crecer sanos y felices.
+      </p>
+
+      <figure>
+        <img src="imagenes/atencion.png" alt="Cachorro feliz mirando a la cámara">
+        <figcaption>Un cachorro lleno de vida y amor</figcaption>
+      </figure>
+
+      <footer>
+        <p>Comentarios (0)</p>
+        <address>
+          <a href="https://www.iberdrola.com/compromiso-social/beneficios-de-tener-mascotas" target="_blank" rel="noopener">
+            Descubre los beneficios de tener mascotas
+          </a>
+        </address>
+      </footer>
+    </article>
+
+    <!-- Artículo 2 -->
+    <article>
+      <header>
+        <hgroup>
+          <h2>Cuidados que deben tener las mascotas</h2>
+          <p class="subtitulo">Si tienes la responsabilidad de cuidar una vida</p>
+        </hgroup>
+        <time datetime="2022-10-18">Publicado el 18 de octubre de 2022</time>
+      </header>
+
+      <p>
+        Tener una mascota es una gran responsabilidad. Requiere tiempo, cuidado, paciencia y compromiso 
+        para garantizarle una vida sana, segura y feliz.
+      </p>
+
+      <figure>
+        <img src="imagenes/amor.png" alt="Persona abrazando con cariño a su mascota">
+        <figcaption>El amor es el mejor cuidado</figcaption>
+      </figure>
+
+      <p>
+        Cuidar una mascota es un compromiso que requiere tiempo, paciencia y dedicación. Con una buena 
+        alimentación, atención veterinaria, ejercicio y mucho cariño, podemos ofrecerles una vida tranquila 
+        y hacer que formen parte real de nuestra familia.
+      </p>
+
+      <footer>
+        <p>Comentarios (20)</p>
+        <address>
+          <a href="https://tucachorrotienda.com/product-category/venta-de-cachorros-medellin/" target="_blank" rel="noopener">
+            ¿Quieres conocer cachorros disponibles? Visita la tienda
+          </a>
+        </address>
+      </footer>
+    </article>
+
+  </section>
+
+  <!-- Columna lateral / Aside -->
+  <aside>
+    <section class="mensajes-inspiradores">
+      <h3>Mensajes para el alma</h3>
+
+      <blockquote>
+        <p><strong>Mensaje 1: Amor y cuidado</strong></p>
+        <p>Una mascota no es solo una compañía, es un ser vivo que necesita amor, atención y cuidados. Dale el cariño y el respeto que merece.</p>
+        <footer>— Cachorritos.com</footer>
+      </blockquote>
+
+      <blockquote>
+        <p><strong>Mensaje 2: Responsabilidad</strong></p>
+        <p>Tener una mascota significa asumir un compromiso. Alimentarla, protegerla, llevarla al veterinario y brindarle un hogar seguro son parte de nuestra responsabilidad.</p>
+        <footer>— Reflexión animal</footer>
+      </blockquote>
+    </section>
+
+    <section class="galeria">
+      <h3>Galería de Mascotas</h3>
+      <div class="imagenes-galeria">
+        <img src="imagenes/ayuda.png" alt="Más que mascotas, verdaderos amigos">
+        <img src="imagenes/gato.png" alt="Momento especial con mascota">
+        <img src="imagenes/juntos.png" alt="Amistad entre humanos y animales">
+      </div>
+    </section>
+  </aside>
+</main>
+
+<!-- Pie de página -->
+<footer class="pie">
+  <p>© 2017-2025 Mascotas en Buenas Manos — Todos los derechos reservados</p>
+</footer>
